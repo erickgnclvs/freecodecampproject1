@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>support the noobs</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">fill out our noob form</h1>
+      <p id="description">ever thought about how <a href="https://www.urbandictionary.com/define.php?term=Noob">noobs</a> can be nice people? if you support the noob cause, fill out the form below with your noob information</p>
+    </header>
+    <form id="survey-form">
+      <fieldset>
+      <div class="formgroup">
+        <label id="name-label">name: <input type="text" required id="name" placeholder="enter your name"></label>
+      </div>
+      <div class="formgroup">
+        <label id="email-label">e-mail: <input type="email" required id="email" placeholder="enter your e-mail"></label>
+      </div>
+      <div class="formgroup">
+        <label id="number-label">age: <input type="number" required min="6" max="120" id="number" placeholder="enter your age"></label>
+      </div>
+      <div class="formgroup">
+        <label>gender: 
+          <select required id="dropdown">
+            <option value="">select one</option>
+            <option value="1">car</option>
+            <option value="2">truck</option>
+            <option value="3">cushion</option>
+            <option value="4">wireless router</option>
+          </select>      
+        </label>
+      </div>
+      </fieldset>
+      <fieldset>
+      <div>
+        <label>how noob are you?
+          <label><input class="buttons" type="radio" name="nooblevel" value="1">lil noob</input></label>
+          <label><input class="buttons" type="radio" name="nooblevel" value="2">kinda noob</input></label>
+          <label><input class="buttons" type="radio" name="nooblevel" value="3">noob-noob</input></label>
+          <label><input class="buttons" type="radio" name="nooblevel" value="4">supa noob</input></label>
+        </label>
+      </div>
+      </fieldset>
+      <fieldset>
+      <div>
+        <label>in which areas have you already been a noob?
+          <label><input class="buttons" type="checkbox" name="noobareas" value="1"> at work</input></label>
+          <label><input class="buttons"  type="checkbox" name="noobareas" value="2"> at school</input></label>
+          <label><input class="buttons" type="checkbox" name="noobareas" value="3"> playing games</input></label>
+          <label><input class="buttons" type="checkbox" name="noobareas" value="4"> eating sushi</input></label>
+        </label>
+      </div>
+      </fieldset>
+      <fieldset>
+      <div class="formgroup">
+        <label>explain why we should support noobs</label>
+        <label>
+         <textarea name="supportnoobs" rows="3" cols="30" placeholder="we should support noobs because..."></textarea>
+        </label>
+      </div>
+      </fieldset>
+      <fieldset>
+        <input type="submit" id="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
